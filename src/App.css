@@ -1,0 +1,27 @@
+.login-div {
+  /* margin-left: 40px; */
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.login_button_div {
+  margin-top: 20px;
+  margin-left: 45%;
+  /* position: relative; */
+  /* left: 45%; */
+}
+.email_div {
+  margin-left: 40px;
+  margin-right: 50%;
+}
+.email_form {
+  margin-left: 30px;
+}
+.nav-item:hover {
+  text-decoration: underline blue;
+}
+@media only screen and (max-width: 600px) {
+  .email_div {
+    margin-left: 40px;
+    margin-right: 30%;
+  }
+}
