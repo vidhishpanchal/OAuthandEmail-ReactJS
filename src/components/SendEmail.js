@@ -12,6 +12,10 @@ function SendEmail() {
               window.alert("Email sent Successfully.")
           }, (error) => {
               console.log(error.text);
+              if (error.status===413) {
+                  window.alert("Attachment size is too large.");
+                  console.log("Attachment size is too large.");
+              }
           });
           e.target.reset();
       }
